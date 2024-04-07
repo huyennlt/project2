@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+
+        <div class="container-fluid">
+            <div class="row flex-nowrap">
+                <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-light">
+                    <div
+                    class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                    <a href="index.html"
+                        class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-black text-decoration-none">
+                        <span class="fs-5 d-none d-sm-inline">Danh sách khóa học</span>
+                    </a>
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start"
+                        id="menu">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link align-middle px-0">
+                                 <span class="ms-1 d-none d-sm-inline">JAAV</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                <span
+                                    class="ms-1 d-none d-sm-inline">JABS</span> </a>
+                            <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                                <li class="w-100">
+                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">HTCS</span>
+                                         </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">JSPR</span>
+                                        </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle">
+                                 <span
+                                    class="ms-1 d-none d-sm-inline">INMA</span></a>
+                        </li>
+                        <li>
+                            <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
+                               <span
+                                    class="ms-1 d-none d-sm-inline">PHPP</span></a>
+                            
+                        </li>
+                        <li>
+                            <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                <span class="ms-1 d-none d-sm-inline">VBPR</span>
+                            </a>
+                            
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle">
+                                 <span
+                                    class="ms-1 d-none d-sm-inline">WEBU</span> </a>
+                        </li>
+                    </ul>
+                    <hr>
+                    <div class="dropdown pb-4">
+                        <a href="#"
+                            class="d-flex align-items-center text-black text-decoration-none dropdown-toggle"
+                            id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="img/ADAV.jpg" alt="hugenerd" width="30" height="30"
+                                class="rounded-circle">
+                            <span class="d-none d-sm-inline mx-1">HUYEN</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                            <li><a class="dropdown-item" href="#">New project...</a></li>
+                            <li><a class="dropdown-item" href="#">Settings</a></li>
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Sign out</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+                <div class="main col pt-3 px-0">
+                    <header>
+                        <div id="carouselExampleCaptions" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://apolyorg.files.wordpress.com/2019/04/xbanner-trang-lien-he-moi.jpg.pagespeed.ic_.fqvwhe7pcx.jpg"
+                                        class="object-fit-cover d-block w-100" alt="..." height="300">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/FPT_Polytechnic_-_Sao_nhap_hoc_-_Tap_1_-_00001.jpg/2560px-FPT_Polytechnic_-_Sao_nhap_hoc_-_Tap_1_-_00001.jpg"
+                                        class="object-fit-cover d-block w-100" alt="..." height="300">
+
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://s3-hn-2.cloud.cmctelecom.vn/tapchicongthuong.vn/tcct-media/23/11/3/top7truong-cao-dang-tuyen-sinh-nganh-cong-nghe-thong-tin-tot-nhat_6544d314447b9.png"
+                                        class="object-fit-cover d-block w-100" alt="..." height="300">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+
+                        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                            <div class="container-fluid ">
+                                <a class="navbar-brand" href="#">FPT Polytechnic</a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav ms-end mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#">Giới thiệu</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Liên hệ</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Góp ý</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Hỏi đáp</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle " href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Tài khoản
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Đăng ký</a></li>
+                                                <li><a class="dropdown-item" href="#">Đăng nhập</a></li>
+                                                <li><a class="dropdown-item" href="#">Quên mật khẩu</a></li>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <li><a class="dropdown-item" href="#">Đăng xuất</a></li>
+                                                <li><a class="dropdown-item" href="#">Đổi mật khẩu</a></li>
+                                                <li><a class="dropdown-item" href="#">Cập nhật tài khoản</a></li>
+                                            </ul>
+                                        </li>
+                                </div>
+                            </div>
+                        </nav>
+                    </header>
+                    <main class="p-0 m-0 ">
+                        <marquee behavior="scroll" class="py-3 bg-body-secondary">Chào mừng bạn đến với Trường cao đẳng
+                            FPT Polytechnic!!!</marquee>
+                           
+                    </main>
+                    <footer class="bg-dark text-center p-2">
+                        <p class="text-light ">&copy;2024 Bản quyền thuộc về Thanh Huyền</p>
+                    </footer>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
